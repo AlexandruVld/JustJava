@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--activity_main.xml file-->
+    <string name="app_name">Doar Java</string>
+    <string name="name">Nume</string>
+    <string name="toppings">Ingrediente extra</string>
+    <string name="whipped_cream">Frisca</string>
+    <string name="chocolate">Ciocolata</string>
+    <string name="quantity">Cantitate</string>
+    <string name="initial_quantity_value">0</string>
+    <string name="order">Comanda</string>
+    <string name="minus">-</string>
+    <string name="zero">0</string>
+    <string name="plus">+</string>
+
+    <!--MainActivity.java file-->
+    <string name="order_summary_name">Nume: <xliff:g id="fillForm" example="Dana">%s</xliff:g></string>
+    <string name="order_summary_quantity">Cantitate: <xliff:g id="quantity" example="0">%d</xliff:g></string>
+    <string name="order_summary_price">Total: <xliff:g id="price" example="10 RON">%d</xliff:g></string>
+    <string name="thank_you">Multumesc!</string>
+    <string name="order_summary_email_subject">Doar Java: Comanda de la <xliff:g id="fillForm" example="Dana">%s</xliff:g></string>
+
+    <!--Toast messages-->
+    <string name="less_than_1_coffee">Nu puteti comanda mai putin de o cafea!</string>
+    <string name="more_than_100_coffees">Nu puteti comanda mai mult de 100 de cafele!</string>
+    <string name="name_field_blank">Trebuie sa completati numele dumneavoastra!</string>
+
+</resources>
